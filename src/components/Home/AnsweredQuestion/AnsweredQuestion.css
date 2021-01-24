@@ -1,0 +1,36 @@
+.option-container {
+    position: relative;
+    padding: 1rem;
+    border: 1px solid rgba(207, 207, 207, 0.6);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin: .8rem 0;
+    width: 85%;
+    text-align: center;
+}
+
+.option-badge {
+    position: absolute;
+    top: -19px;
+    right: -22px;
+    color: #fff;
+    background-color: #1A90FF;
+    padding: .6rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    font-size: small;
+}
+
+.more-votes {
+    background-color: hsl(208, 92%, 85%)
+}
+
+.less-votes {
+    background-color: transparent
+}
