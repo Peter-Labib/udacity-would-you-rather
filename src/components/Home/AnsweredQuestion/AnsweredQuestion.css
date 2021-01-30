@@ -27,6 +27,30 @@
     font-size: small;
 }
 
+.option-progress {
+    margin: auto;
+    height: 15px;
+    border-radius: 5px;
+    background-color: #eee;
+    position: relative;
+    overflow: hidden;
+    font-size: .7rem;
+    text-align: center;
+}
+
+.option-progress__percentage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: rgb(26, 144, 255);
+}
+.option-progress span:last-of-type {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
 .more-votes {
     background-color: hsl(208, 92%, 85%)
 }

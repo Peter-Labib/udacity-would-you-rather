@@ -10,3 +10,4 @@ export const ADD_QUESTION_TO_USER = 'ADD_QUESTION_TO_USER'
 
 // authedUser types
 export const SET_AUTHED_USER = 'SET_AUTHED_USER'
+export const SET_AUTH_REDIRECT_PATH = 'SET_AUTH_REDIRECT_PATH'
